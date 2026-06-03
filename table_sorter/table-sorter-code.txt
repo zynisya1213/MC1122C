@@ -1,0 +1,25 @@
+// Table Sorter Information
+
+
+// Add the scripts for JQuery and the Table Sorter plug in to the head section of the page
+// Add the tablesorter.css file to the head section of the page
+
+// This is the code for the head section of the page to activate the script
+
+	<script type="text/javascript">
+		$(document).ready(function()
+			{ $("#myTable").tablesorter(); 	}
+		);
+	</script>
+
+// Change "#myTable" in above script to the id for your table. For example:
+
+	{ $("#MyTableID").tablesorter(); 	}
+
+// Place the class style "tablesorter" in the opening table tag
+	
+	<table class="tablesorter">
+
+
+// You must have a thead and tbody declared in the table.
+
